@@ -1,4 +1,5 @@
 import React from 'react'
+import './americanasPadel.css'
 
 function AmericanasPadel() {
   return (

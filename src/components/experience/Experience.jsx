@@ -12,10 +12,10 @@ function Experience() {
         <div className='experience__frontend'>
           <h3>Frontend Development</h3>
           <div className='experience__content'>
+            <ExperienceArticle title="IBM BPM" text="Experto"/>
+            <ExperienceArticle title="JS" text="Experto"/>
             <ExperienceArticle title="HTML" text="Experto"/>
             <ExperienceArticle title="CSS" text="Intermedio"/>
-            <ExperienceArticle title="JS" text="Experto"/>
-            <ExperienceArticle title="Boostrap" text="Intermedio"/>
             <ExperienceArticle title="Angular" text="Intermedio"/>
             <ExperienceArticle title="React" text="Intermedio"/>
           </div>
@@ -23,11 +23,12 @@ function Experience() {
         <div className="experience__backend">
           <h3>Backend Development</h3>
           <div className='experience__content'>
-            <ExperienceArticle title="nodeJs" text="Experto"/>
+            <ExperienceArticle title="nodeJs" text="Intermedio"/>
             <ExperienceArticle title="PHP" text="Intermedio"/>
-            <ExperienceArticle title="MySQL" text="Experto"/>
-            <ExperienceArticle title="Python" text="Intermedio"/>
-            <ExperienceArticle title="MongoDB" text="Intermedio"/>
+            <ExperienceArticle title="MySQL" text="Intermedio"/>
+            <ExperienceArticle title="Java" text="Intermedio"/>
+            <ExperienceArticle title="ElasticSearch" text="Intermedio"/>
+            <ExperienceArticle title="Python" text="Principiante"/>
           </div>
         </div>
       </div>

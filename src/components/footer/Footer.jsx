@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css';
-import {FaFacebookF, FaTwitter} from 'react-icons/fa'
+import {FaLinkedin, FaTwitter} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 
 function Footer() {
@@ -10,13 +10,13 @@ function Footer() {
 
       <ul className='permalinks'>
         <li><a href='#'>Home</a></li>
-        <li><a href='#'>About</a></li>
-        <li><a href='#'>Experience</a></li>
-        <li><a href='#'>Portfolio</a></li>
-        <li><a href='#'>Contact</a></li>
+        <li><a href='#about'>About</a></li>
+        <li><a href='#experience'>Experience</a></li>
+        <li><a href='#portfolio'>Portfolio</a></li>
+        <li><a href='#contact'>Contact</a></li>
       </ul>
       <div className='footer__socials'>
-        <a href='https://facebook.com'><FaFacebookF/></a>
+        <a href='https://linkedin.com'><FaLinkedin/></a>
         <a href='https://instagram.es'><FiInstagram/></a>
         <a href='https://twitter.es'><FaTwitter/></a>
       </div>

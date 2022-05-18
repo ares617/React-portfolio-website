@@ -9,14 +9,14 @@ import Experience from '../../components/experience/Experience';
 
 function Home() {
   return (
-    <>
+    <div className='homePage'>
         <Header />
         <About/>
         <Experience />
         <Portfolio/>
         <Contact/>
         <Footer />
-      </>
+    </div>
   )
 }
 

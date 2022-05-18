@@ -1,0 +1,10 @@
+.homePage{
+    font-family: 'Poppins', sans-serif;
+    background: var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7;
+    background-image: url(../../assets/bg-texture5.png);
+    /* background: rgb(44,44,108); */
+    /* background: linear-gradient(130deg, rgba(44,44,108,1) 53%, rgba(61,181,255,1) 89%); */
+    background-attachment: fixed;
+}

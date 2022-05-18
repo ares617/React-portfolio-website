@@ -6,8 +6,8 @@ import AboutCard from './AboutCard'
 function About() {
   return (
     <section id="about">
-      <h5>Get to Know</h5>
-      <h2>About Me</h2>
+      <h5>Conoceme</h5>
+      <h2>Sobre mi</h2>
 
       <div className='container about__container'>
         <div className='about__me'>
@@ -18,11 +18,11 @@ function About() {
         <div className='about__content'>
           <div className='about__cards'>
             <AboutCard title="Experiencia" icon='FaAward' text="4+ años de experiencia"/>
-            <AboutCard title="Clients" icon='FiUsers' text="200+ WorlWide"/>
-            <AboutCard title="Proyectos" icon='VscFolderLibrary' text="80+ proyectos completados"/>
+            <AboutCard title="Titulo" icon='MdOutlineSchool' text="Grado superior en desarrollo de Aplicaciones Web"/>
+            <AboutCard title="Trabajo Actual" icon='MdWorkOutline' text="Oficina de alta calidad de Caixa en la tecnologia IBM BPM"/>
           </div>
           <p>
-            lorem sadmiqwemfierwmvcmrw wefciwemivmcirwe mwe mwemcmweicmweimci mecmweimciwemicmwei cmweimciwemcmwe wecmiwemciwemcmwemcwmcenwncei ecmiwemcmwe m
+            Soy una persona trabajadora y responsable, con la habilidad de aprender rápido. Mis aficiones son la lectura, los videojuegos y el deporte.
           </p>
           <a href='#contact' className='btn btn-primary'>Contactame</a>
         </div>

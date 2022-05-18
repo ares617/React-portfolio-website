@@ -1,14 +1,16 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
+import {Link} from "react-router-dom";
+
+import {BiTennisBall} from 'react-icons/bi'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Titulo Proyecto1',
-    github: 'https://github.com',
-    demo: 'https://github.com' 
+    title: 'AmericanasPadel',
+    link: '/americanasPadel'
   }
 ]
 
@@ -20,7 +22,7 @@ function Portfolio() {
 
       <div className='container portfolio__container'>
         {
-          data.map(({id,image,title,github,demo}) =>{
+          data.map(({id,image,title,link}) =>{
             return(
               <article key={id} className='portfolio__item'>
                 <div className='portfolio__item-image'>
@@ -28,8 +30,7 @@ function Portfolio() {
                 </div>
                 <h3>{title}</h3>
                 <div className='portfolio__item-cta'>
-                    <a href={github} className='btn' target="_blank">Github</a>
-                    <a href={demo} className='btn btn-primary' target="_blank">Live Demo</a>
+                    <Link className='btn' to={link}>Demo</Link>
                 </div>
             </article>
             )
